@@ -308,7 +308,6 @@ while True:
     def main():
         global first_run, lines_out
         if lines_out >= 5:
-            lines_out = 0
             print("\nYou may use 'cls' command to clear the screen")
         if first_run:
             print("Hi there, welcome to this All-in-one Python Prime Program")
