@@ -79,6 +79,7 @@ while True:
         global lines_out
         if task_id == 1:
             while True:
+                lines_out += 1
                 if lines_out >= 5:
                     print("\nYou may use 'cls' command to clear the screen")
                 if lock == 1:
@@ -102,6 +103,7 @@ while True:
                     print("A positive integer was expected... Try again")
         elif task_id == 2:
             while True:
+                lines_out += 1
                 if lines_out >= 5:
                     print("\nYou may use 'cls' command to clear the screen")
                 if lock == 1:
@@ -125,6 +127,7 @@ while True:
                     print("A positive integer was expected... Try again")
         elif task_id == 3:
             while True:
+                lines_out += 1
                 if lines_out >= 5:
                     print("\nYou may use 'cls' command to clear the screen")
                 if lock == 1:
@@ -151,6 +154,7 @@ while True:
                     print("A positive integer was expected... Try again")
         elif task_id == 4:
             while True:
+                lines_out += 1
                 if lines_out >= 5:
                     print("\nYou may use 'cls' command to clear the screen")
                 if lock == 1:
@@ -345,6 +349,7 @@ while True:
             lock_unlock_handler(user_input)
         else:
             print(f"{user_input} is not a recognised command. Try 'help' for a list of commands")
+            lines_out += 1
 
 
     if __name__ == "__main__":
