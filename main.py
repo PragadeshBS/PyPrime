@@ -314,7 +314,7 @@ while True:
         if lines_out >= 5:
             print("\nYou may use 'cls' command to clear the screen")
         if first_run:
-            print("Hi there, welcome to this All-in-one Python Prime Program?")
+            print("Hi there, welcome to this All-in-one Python Prime Program")
             print("Enter 'help' for a list of commands")
             user_input = input("\nEnter command>>").lower().strip()
             first_run = False
